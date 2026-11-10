@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saberdao/sail"
+    "url": "git+https://github.com/toolboxdao/sail"
   },
   "scripts": {
     "build": "tsc && tsc --project tsconfig.cjs.json",

@@ -270,7 +270,7 @@ export const makeTokenQuery = ({
     const lpTokenInfo = await fetchNullableWithSessionCache<
       Record<string, TokenInfo>
     >(
-      "https://raw.githubusercontent.com/saberdao/lp-token-list-v2/refs/heads/main/token-list.json",
+      "https://raw.githubusercontent.com/toolboxdao/lp-token-list-v2/refs/heads/main/token-list.json",
       signal,
     );
     console.log(lpTokenInfo);
